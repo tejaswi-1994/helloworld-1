@@ -6,7 +6,7 @@ pipeline {
                 sh 'lsblk'
 		sh 'pwd'
 		sh 'lscpu'
-		sh 'ping google.com'
+		sh 'ping -n 4 google.com'
             }
         }
     }
